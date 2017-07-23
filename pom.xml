@@ -14,7 +14,6 @@
     <modules>
         <module>1-threads-and-runnables</module>
         <module>2-synchronization</module>
-        <!--<module>simple-webapp</module>-->
     </modules>
 
     <properties>
