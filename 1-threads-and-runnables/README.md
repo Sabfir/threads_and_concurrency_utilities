@@ -13,8 +13,7 @@ loop after outputting interrupted .
 $ git clone https://github.com/Sabfir/threads_and_concurrency_utilities.git
 $ cd threads_and_concurrency_utilities
 $ cd 1-threads-and-runnables
-$ mvn clean install
-$ mvn exec:java -Dexec.mainClass="com.opinta.App_1"
+$ mvn clean install exec:java -Dexec.mainClass="com.opinta.App_1"
 ```
 or
 ```shell
@@ -25,8 +24,8 @@ $ cd 1-threads-and-runnables
 $ mvn exec:java -Dexec.mainClass="com.opinta.App_1"
 ```
 
+## Summary
 ```shell
-Summary
 Java applications execute via threads, which are independent paths of execution through
 an application’s code. Each Java application has a default main thread that executes the
 main() method. The application can also create threads to perform time-intensive tasks
